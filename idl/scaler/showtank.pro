@@ -34,7 +34,7 @@ pro showtank, filename, tank
 	fnamedata = (STRSPLIT(fname, /EXTRACT, '_.'))[1:-1]
 	metadata = {run_number:fnamedata[0]+0, file_number:fnamedata[1]+0, $
 		year:fnamedata[2]+0, doy:fnamedata[3]+0, secondofday:fnamedata[4]+0, $
-    file_extension:fnamedata[5]}
+		file_extension:fnamedata[5]}
 
 	;get count data
 	if metadata.file_extension eq 'dat' then $
