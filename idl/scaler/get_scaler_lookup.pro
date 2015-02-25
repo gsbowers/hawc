@@ -1,7 +1,7 @@
 ;+
 ; Procedure: get_scaler_lookup
 ;
-; Purpose: This is a translation of Dirk Lennarz python code into 
+; Purpose: This is a translation of Dirk Lennarz's python code into 
 ;          IDL to generate a scaler lookup table for HAWC (the 
 ;          High-Altitude Water Cherenkov Observatory) detectors  
 ;          
